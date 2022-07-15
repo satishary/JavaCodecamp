@@ -1,0 +1,34 @@
+An Array is a collection of elements of the same type stored in contiguous memory locations.
+The 2 rules are 
+1. Elements will be of the same type which will ensure they have the same size.
+2. Contiguous means the whole array is stored at the same memory location.
+
+Arrays are declared in Java in the following manners
+
+1. int[] a;
+   int a[];
+   The general rule is datatype[] arrayname; or datatype arrayname[];
+int[] a;
+int a[];
+
+both of these are null
+
+Automatic initialization
+int[] a={1,2,3};
+int a[]={1,2,3};
+
+Arrays with a given size.
+int[] a=new int[5];
+int a[] =new int[5];
+this will create an array of size 5. The elements will be 0.
+Java initializes all numerical arrays to 0.
+boolean arrays to false
+and all reference types to null
+
+Another way of declaring arrays.
+int[] a;
+a=new int[]{1,2,3};
+
+int a[];
+a=new int[]{1,2,3};
+   
